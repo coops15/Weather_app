@@ -1,0 +1,47 @@
+<html>
+<html lang="en">
+
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather_App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" class="input" placeholder="Enter City">
+                <button class='bx bx-search-alt-2 btn' id="btn"></button>
+            </div>
+
+        </div>
+
+        <div class="error">
+            error
+          <img src="img/error.png" alt="error" class="error-img">
+        </div>
+<div class="none">
+        <div class="weather">
+
+            <img src="img/cold.png" alt="weather" class="weather-img">
+            <div class="tem" id="temp">
+                0 <sup>°C</sup>
+            </div>
+            <p id="description">Weather Mode</p>
+        </div>
+
+        <div class="hum-wind">
+            <div class="humi" id="humi">
+                  0 %
+            </div>
+            <div class="wind" id="wind">
+                0 km/h
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
